@@ -18,7 +18,7 @@ function ColorForm(props){
             <form onSubmit={handleSubmit}>
                 <input value={input} type="text" onChange={(e) => setInput(e.target.value)} />
                 <button type="submit">Add a Color!</button>
-                <button onClick={clear}>Clear</button>
+                <button onClick={clear}>Delete</button>
             </form>
                     
         </div>
